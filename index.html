@@ -104,6 +104,22 @@
     .nav a:hover,.nav a.active{color:var(--wood-2)}
     .nav a:hover::after,.nav a.active::after{width:100%}
     .header__cta{display:flex;align-items:center;gap:20px}
+.insta-link {
+  color: var(--ink);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  transition: all .3s ease;
+}
+.insta-link:hover {
+  color: #d35400;
+  border-color: #d35400;
+  transform: translateY(-2px);
+}
     .header__phone{font-weight:700;font-size:15px;color:var(--ink);text-decoration:none;transition:color .3s}
     .header__phone:hover{color:var(--wood-2)}
     .burger{display:none;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;background:none;border:0;cursor:pointer;margin-left:auto;padding:10px}
@@ -229,6 +245,22 @@
     .footer__contacts{display:grid;gap:10px;justify-items:start;font-size:14.5px}
     .footer__contacts a{color:#e9decb;font-weight:700;font-size:17px;text-decoration:none;transition:color .3s}
     .footer__contacts a:hover{color:#c8a87a}
+.insta-link {
+  color: var(--ink);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  transition: all .3s ease;
+}
+.insta-link:hover {
+  color: #d35400;
+  border-color: #d35400;
+  transform: translateY(-2px);
+}
     .footer__bottom{border-top:1px solid rgba(233,222,203,.12)}
     .footer__bottom-inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;padding:22px 0;font-size:13px;color:#8f8370}
 
@@ -344,6 +376,13 @@
       </nav>
       <div class="header__cta">
         <a class="header__phone" href="tel:+375333344618">+375 (33) 334-46-18</a>
+<a href="https://instagram.com/aleksles3" target="_blank" rel="noopener" class="insta-link">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+  </svg>
+</a>
         <button class="btn btn--primary btn--sm" type="button" data-open-modal>Расчет стоимости</button>
       </div>
       <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -369,7 +408,7 @@
           <div class="hero__content">
             <p class="eyebrow reveal">Собственное производство лестниц · Беларусь</p>
             <h1 class="reveal" style="--d:.08s">Надежные лестницы на <em>монокосоуре</em> для вашего дома</h1>
-            <p class="hero__text reveal" style="--d:.16s">Находимся в Беларуси, Вилейский район, поселок Партизанский. Занимаемся производством бюджетных лестниц на монокосоуре уже более 10 лет. Примерная стоимость от 1000 долларов.</p>
+            <p class="hero__text reveal" style="--d:.16s">Находимся в Беларуси, Вилейский район, поселок Партизанский. Занимаемся производством бюджетных лестниц на монокосоуре уже более 10 лет. Примерная стоимость от 3000 BYN.</p>
             <div class="hero__actions reveal" style="--d:.24s">
               <button class="btn btn--primary" type="button" data-open-modal>Получить расчет стоимости</button>
               <a class="btn btn--ghost" href="#portfolio">Примеры работ</a>
@@ -386,7 +425,7 @@
         </div>
         <ul class="hero__stats reveal" style="--d:.35s">
           <li class="stat"><b>10+</b><span>лет опыта производства</span></li>
-          <li class="stat"><b>от 1000 $</b><span>примерная стоимость лестницы</span></li>
+          <li class="stat"><b>от 3000 BYN</b><span>примерная стоимость лестницы</span></li>
           <li class="stat"><b>2 недели</b><span>изготовление с момента замера</span></li>
           <li class="stat"><b>1 день</b><span>монтаж на объекте</span></li>
         </ul>
@@ -536,7 +575,7 @@
           </div>
           <div class="faq-item">
             <button class="faq-q" type="button" aria-expanded="false">Сколько стоит лестница?<span class="faq-icon" aria-hidden="true"></span></button>
-            <div class="faq-a"><p>Примерная стоимость лестницы на монокосоуре — от 1000 долларов. Итоговая цена зависит от размеров проема, материала ступеней и конфигурации лестницы. Оставьте заявку — и мы рассчитаем точную стоимость по вашим параметрам.</p></div>
+            <div class="faq-a"><p>Примерная стоимость лестницы на монокосоуре — от 3000 белорусских рублей. Итоговая цена зависит от размеров проема, материала ступеней и конфигурации лестницы. Оставьте заявку — и мы рассчитаем точную стоимость по вашим параметрам.</p></div>
           </div>
           <div class="faq-item">
             <button class="faq-q" type="button" aria-expanded="false">Сколько времени нужно на установку?<span class="faq-icon" aria-hidden="true"></span></button>
@@ -591,6 +630,14 @@
         <h4>Контакты</h4>
         <span>Александр</span>
         <a href="tel:+375333344618">+375 (33) 334-46-18</a>
+<a href="https://instagram.com/aleksles3" target="_blank" rel="noopener" style="color: #e9decb; text-decoration: none; font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 10px; margin-top: 12px;">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+  </svg>
+  <span>aleksles3</span>
+</a>
         <span>Вилейский район, пос. Партизанский</span>
       </div>
     </div>
